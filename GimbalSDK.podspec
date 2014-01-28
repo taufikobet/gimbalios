@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'http://developers.pinterest.com/ios/'
   s.author   = 'Pinterest'
 
-  s.source   = { :http => 'http://10.3.1.86:3333/images/GimbalSDKiOS.zip' }
+  s.source   = { :http => 'https://github.com/taufikobet/gimbalios/raw/master/GimbalSDKiOS.zip' }
 
   s.frameworks     = 'CoreGraphics', 'UIKit', 'Gimbal'
   s.platform       = :ios
