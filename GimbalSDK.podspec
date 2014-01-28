@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.source   = { :http => 'https://github.com/taufikobet/gimbalios/raw/master/GimbalSDKiOS.zip' }
 
-  s.frameworks     = 'CoreGraphics', 'UIKit', 'Gimbal'
+  s.frameworks     = 'CoreGraphics', 'UIKit', 'ContextCore'
   s.platform       = :ios
   s.source_files   = 'GimbalSDKiOS/ContextCore.embeddedframework/ContextCore.framework/Versions/1.11/Headers/*.h'
   s.resources      = 'GimbalSDKiOS/ContextCore.embeddedframework/ContextCore.framework/Resources'
