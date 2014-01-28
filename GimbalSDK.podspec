@@ -25,12 +25,7 @@ Pod::Spec.new do |s|
                       'GimbalSDKiOS/Common.embeddedframework/Common.framework/Resources',
                       'GimbalSDKiOS/NetworkServices.embeddedframework/NetworkServices.framework/Resources'
 
-  s.xcconfig       =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/ContextCore.embeddedframework" 
-                                                    "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/ContextProfile.embeddedframework"
-                                                    "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/ContextLocation.embeddedframework"
-                                                    "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/Common.embeddedframework"
-                                                    "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/NetworkServices.embeddedframework"'
-                      }
+  s.xcconfig       =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(inherited)" "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/ContextCore.embeddedframework" "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/ContextProfile.embeddedframework" "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/ContextLocation.embeddedframework" "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/Common.embeddedframework" "$(PODS_ROOT)/GimbalSDK/GimbalSDKiOS/NetworkServices.embeddedframework"' }
 
   s.preserve_paths =  'GimbalSDKiOS/ContextCore.embeddedframework/ContextCore.framework',
                       'GimbalSDKiOS/ContextProfile.embeddedframework/ContextProfile.framework',
